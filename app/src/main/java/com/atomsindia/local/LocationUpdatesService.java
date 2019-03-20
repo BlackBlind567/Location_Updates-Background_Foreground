@@ -231,6 +231,8 @@ public class LocationUpdatesService extends Service {
         Log.i(TAG, "in onBind()");
         stopForeground(true);
         mChangingConfiguration = false;
+
+        // Register Firestore when service will restart
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         return mBinder;
@@ -246,6 +248,8 @@ public class LocationUpdatesService extends Service {
         Log.i(TAG, "in onRebind()");
         stopForeground(true);
         mChangingConfiguration = false;
+
+        // Register Firestore when service will restart
         firebaseAuth = FirebaseAuth.getInstance();
         firebaseFirestore = FirebaseFirestore.getInstance();
         super.onRebind(intent);
@@ -393,8 +397,11 @@ public class LocationUpdatesService extends Service {
         if (serviceIsRunningInForeground(this)) {
             mNotificationManager.notify(NOTIFICATION_ID, getNotification());
 
+            // Getting location when notification was call.
             latitude = location.getLatitude();
             longitude = location.getLongitude();
+
+            // Here using to call Save to serverMethod
             SavetoServer();
 
         }
@@ -438,6 +445,12 @@ public class LocationUpdatesService extends Service {
         }
         return false;
     }
+
+
+    /**
+     * Save a value in realtime to firestore when user in background
+     * For foreground you have to call same method to activity
+     * */
 
     private void SavetoServer(){
         Toast.makeText(this, "Save to server", Toast.LENGTH_SHORT).show();
