@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "924860315664",
+    "firebase_url": "https://tryuber-4278b.firebaseio.com",
+    "project_id": "tryuber-4278b",
+    "storage_bucket": "tryuber-4278b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924860315664:android:f20edd105f8b7d2c",
+        "android_client_info": {
+          "package_name": "com.atomsindia.getlocforusertrans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924860315664-9qjvnailco9hjqj6labsdq4cqnt46und.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAoY_5TS7UWdhf612uxLRr6tCpKrLYNzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924860315664:android:8e62910d1454fb47",
+        "android_client_info": {
+          "package_name": "com.atomsindia.local"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924860315664-9qjvnailco9hjqj6labsdq4cqnt46und.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAoY_5TS7UWdhf612uxLRr6tCpKrLYNzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924860315664:android:c84f4515a44d56c9",
+        "android_client_info": {
+          "package_name": "com.atomsindia.tryuber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924860315664-3dtqbg0moci8531hh5eqj5nob942jc1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.atomsindia.tryuber",
+            "certificate_hash": "5741ef1667e268bbaf8c12d8da9eeb669ab2e72d"
+          }
+        },
+        {
+          "client_id": "924860315664-9qjvnailco9hjqj6labsdq4cqnt46und.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAoY_5TS7UWdhf612uxLRr6tCpKrLYNzA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924860315664-9qjvnailco9hjqj6labsdq4cqnt46und.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
